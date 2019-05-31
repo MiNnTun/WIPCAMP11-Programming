@@ -25,7 +25,7 @@ public class WIPCargo {
        if( x <= 1){
         System.out.print("ใส่จำนวนสินค้า: ");
        int y = sc.nextInt();
-       System.out.println("สินค้าในคลัง " + y + " จากทั้งหมด " + limit);}
+       System.out.println("สินค้าในคลัง " + (item+y) + " จากทั้งหมด " + limit);}
        else if (x ==2){
         System.out.print("ใส่จำนวนทีจะลด: ");
        int z = sc.nextInt();
@@ -33,7 +33,4 @@ public class WIPCargo {
        else {
            System.out.println("สินค้าในคลัง " + item + " จากทั้งหมด " + limit);}
        }
-           
-           
-
     }
